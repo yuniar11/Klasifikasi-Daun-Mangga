@@ -51,7 +51,7 @@ def download_model_from_dropbox():
 # Run the download function
 download_model_from_dropbox()
 
-@st.cache_data()
+@st.cache()
 def load_model():
     # Check if the model file exists locally
     local_model_path = 'temp/model/paramC5_acc91%.pkl'
