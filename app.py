@@ -89,7 +89,7 @@ def main():
         st.markdown("---")
         st.caption('This project trained with [Mango🥭 Leaf🍃🍂 Disease Dataset](https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset), using Support Vector Machine [(SVM)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) and normalization to preprocess data.')
         st.markdown("---")
-        st.caption('Result of this project is model can classify image into 5 class Antrachnose, Bacterial Canker, Die Back, Healthy and Powdery Mildew with XX% validation_accuracy.')
+        st.caption('Result of this project is model can classify image into 5 class Antrachnose, Bacterial Canker, Die Back, Healthy and Powdery Mildew with 91% test_accuracy.')
         
     if menu == "Home":
         st.header("Upload an Image")
